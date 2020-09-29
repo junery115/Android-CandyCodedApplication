@@ -11,8 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin.version" value="3.5.1" />
     <property name="show.do.not.ask.upgrade.gradle.version" value="5.4.1" />
   </component>
-  <component name="RunManager" selected="Android JUnit._3_StartThePhoneActivity">
+  <component name="RunManager" selected="Android JUnit._4_ShareACandyWithAnIntent">
     <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -108,6 +107,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._3_StartThePhoneActivity" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_ShareACandyWithAnIntent" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._4_ShareACandyWithAnIntent" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -189,6 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit._4_ShareACandyWithAnIntent" />
         <item itemvalue="Android JUnit._3_StartThePhoneActivity" />
         <item itemvalue="Android JUnit._2_StartTheGoogleMapsActivity" />
         <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity" />
@@ -226,25 +242,30 @@
       <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state x="1928" y="14" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.-257.1920.1057/0.23.1280.777@1280.-257.1920.1057" timestamp="1601343273758" />
-    <state width="1286" height="290" key="GridCell.Tab.0.bottom" timestamp="1601386305863">
+    <state width="1285" height="290" key="GridCell.Tab.0.bottom" timestamp="1601387942910">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601386305863" />
-    <state width="1286" height="290" key="GridCell.Tab.0.center" timestamp="1601386305860">
+    <state width="1285" height="290" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601387942910" />
+    <state width="1285" height="290" key="GridCell.Tab.0.center" timestamp="1601387942909">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601386305860" />
-    <state width="1286" height="290" key="GridCell.Tab.0.left" timestamp="1601386305859">
+    <state width="1285" height="290" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601387942909" />
+    <state width="1285" height="290" key="GridCell.Tab.0.left" timestamp="1601387942908">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601386305859" />
-    <state width="1286" height="290" key="GridCell.Tab.0.right" timestamp="1601386305860">
+    <state width="1285" height="290" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601387942908" />
+    <state width="1285" height="290" key="GridCell.Tab.0.right" timestamp="1601387942910">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
-    <state width="1286" height="290" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601386305860" />
+    <state width="1285" height="290" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.777@1280.23.1920.1057" timestamp="1601387942910" />
     <state x="1741" y="-90" key="SettingsEditor" timestamp="1601344693595">
       <screen x="1280" y="-257" width="1920" height="1057" />
     </state>
     <state x="1741" y="-90" key="SettingsEditor/1280.-257.1920.1057/0.23.1280.777@1280.-257.1920.1057" timestamp="1601344693595" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Android_CandyCodedApplication$_4_ShareACandyWithAnIntent.ic" NAME="_4_ShareACandyWithAnIntent Coverage Results" MODIFIED="1601386861057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.pluralsight.candycoded.*</FILTER>
+    </SUITE>
   </component>
 </project>
